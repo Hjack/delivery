@@ -1,5 +1,4 @@
 require 'rails_helper'
-# require 'factories/senders'
 
 RSpec.describe Sender, type: :model do
   it 'is invalid without a name' do
